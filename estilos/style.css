@@ -34,7 +34,6 @@ body {
 }
 
 #area-cabecalho > #area-menu > a:link, a:visited{
-    background: rgba(150, 239, 150, 0.775);
     color: #fff;
     text-decoration: none;
     padding: 8px 15px;
@@ -85,10 +84,13 @@ body {
 
 #principal > #left > .postagem > p {
     padding: 2px 0px 20px;
+    text-align: justify;
+    text-indent: 20px;
 }
 
 #principal > #left > .postagem > #imagem > img {
     width: 100%;
+    border-radius: 3px;
 }
 
 #principal > #left > .postagem > a {
@@ -120,6 +122,8 @@ body {
 #principal > #right > #lateral-um > p {
     margin-bottom: 15px;
     color: #000;
+    text-align: justify;
+    text-indent: 20px;
 }
 
 #principal > #right > #lateral-um > a {
